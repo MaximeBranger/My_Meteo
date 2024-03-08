@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.SVGPath ?>
+
+<?import javafx.scene.text.Font?>
+<Tab fx:id="toto" xmlns="http://javafx.com/javafx"
+     xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.my_meteo.Controller.WeatherTabController">
+    <content>
+        <ScrollPane prefHeight="450.0" prefWidth="1000.0">
+            <AnchorPane fx:id="anchorPane" prefHeight="450.0" prefWidth="1100.0"
+                        AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <children>
+                    <VBox fx:id="customHbox" layoutX="575.0" layoutY="235.0" prefHeight="200.0" prefWidth="500.0" styleClass="graph"  alignment="CENTER">
+                        <Label text="Orientation du vent">
+                            <font>
+                                <Font name="Gill Sans MT" size="18.0" />
+                            </font>
+                        </Label>
+                        <SVGPath fx:id="arrowWind" content="M64 1 17.9 127 64 99.8l46.1 27.2L64 1zm0 20.4 32.6 89.2L64 91.3V21.4" fill="#0b0071"/>
+                    </VBox>
+                </children>
+            </AnchorPane>
+        </ScrollPane>
+    </content>
+</Tab>

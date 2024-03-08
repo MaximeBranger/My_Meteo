@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.my_meteo.Controller.CefimController">
+        <VBox alignment="CENTER" prefHeight="241.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView>
+                    <Image url="@./assets/cefim.png" />
+                </ImageView>
+                <Label text="CDA 2023 - Java">
+                    <font>
+                       <Font name="System Bold" size="18.0" />
+                    </font>
+            <VBox.margin>
+               <Insets bottom="25.0" top="25.0" />
+            </VBox.margin>
+                </Label>
+
+                <Label text="BRANGER Maxime" />
+                <Label text="LE GENDRE François" />
+                <Label text="PECHON Vincent" />
+
+                <Hyperlink onAction="#openRepository" text="Afficher le code source">
+                    <VBox.margin>
+                       <Insets top="25.0" />
+                    </VBox.margin>
+                </Hyperlink>
+                <Button onAction="#returnToMain" style="-fx-background-color: darkblue; -fx-text-fill: white; -fx-padding: 5 10 5 10;" text="Retour">
+                    <VBox.margin>
+                        <Insets bottom="15.0" top="25.0" />
+                    </VBox.margin>
+                </Button>
+            </children>
+      <padding>
+         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+      </padding>
+        </VBox>
+</AnchorPane>
