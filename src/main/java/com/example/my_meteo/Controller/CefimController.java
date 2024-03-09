@@ -34,9 +34,8 @@ public class CefimController {
     public void openRepository(ActionEvent event) {
         System.out.println("event");
         try {
-            URI uri = new URI("https://gitlab.cefim-formation.org/francois.lg/mymeteo");
+            URI uri = new URI("https://github.com/MaximeBranger/My_Meteo");
 
-            System.out.println("Open");
             Desktop.getDesktop().browse(uri);
         } catch (IOException | URISyntaxException e) {
             System.out.println("Error");

@@ -1,6 +1,5 @@
 package com.example.my_meteo.Service;
 
-import java.io.IOException;
 import java.net.URI;
 import java.net.http.*;
 import java.util.Map;

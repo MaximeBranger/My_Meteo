@@ -1,8 +1,5 @@
 package com.example.my_meteo.Service;
 
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;

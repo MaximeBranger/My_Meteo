@@ -1,13 +1,8 @@
 package com.example.my_meteo.Object;
 
-import com.gluonhq.maps.MapLayer;
 import com.gluonhq.maps.MapPoint;
 import com.gluonhq.maps.MapView;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
 public class GeographicMap {
     public static MapView build() {
 
